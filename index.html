@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome Library is used for Leader board Icon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Codedamn - Quiz Project</title>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a id="leaderboard" href="#">
+          View Highscores
+          <i class="fas fa-hand-point-left fa-lg"></i>
+        </a>
+        <p>Time: <span id="timer">00</span> s</p>
+      </nav>
+    </header>
+    <main>
+      <div class="content" id="content">
+        <h1>Coding Quiz Challenge</h1>
+        <div>
+          <p>
+            Try to answer the following code-related questions within the time
+            limit.
+          </p>
+          <p>
+            Keep in mind that incorrect answers will penalize your score/time by
+            10 seconds!
+          </p>
+        </div>
+        <button class="btn" id="startQuiz">Start Quiz</button>
+      </div>
+    </main>
+    <aside id="toast">Success</aside>
+  </body>
+</html>
